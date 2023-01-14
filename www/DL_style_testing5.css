@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'GothamBold';
+    src: url('Font.eot');
+    src: url('Font.eot?#iefix') format('embedded-opentype'),
+        url('Font.woff2') format('woff2'),
+        url('Font.woff') format('woff'),
+        url('Font.ttf') format('truetype'),
+        url('Font.svg#Font') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Font_1.eot');
+    src: url('Font_1.eot?#iefix') format('embedded-opentype'),
+        url('Font_1.woff2') format('woff2'),
+        url('Font_1.woff') format('woff'),
+        url('Font_1.ttf') format('truetype'),
+        url('Font_1.svg#Font') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot');
+    src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff'),
+        url('Lato-Regular.ttf') format('truetype'),
+        url('Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* navbar options */
+.navbar{ 
+  background-color: #ffa300;
+  font-family: 'GothamBold';
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+  color: white !important;
+  font-family: 'GothamBold';
+  background-color:black !important;
+}
+
+/* header fonts/colors */
+.h1, .h2, .h3, .h5, .h6, h1, h2, h3, h5, h6 {
+    font-family: 'GothamBold';
+}
+
+.h5, h5 {
+    font-family: 'GothamBold';
+    color: white;
+}
+
+/* background color of selection box */
+.well {
+  background-color: black;
+}
+
+.selectize-input {
+  font-family: 'Lato';
+  border-color: black;
+  min-height: 14px;
+  font-size: 14px;
+}
+
+.form-control.shiny-bound-input{
+  font-family: 'Lato';
+  border-color: black;
+  min-height: 14px;
+  font-size: 14px;
+}
+
+.bootstrap-select > .dropdown-toggle{
+  font-family: 'Lato';
+  border-color: black;
+  min-height: 14px;
+  font-size: 14px;
+}
+
+
+/* table header font */
+.ReactTable .rt-thead.-header {
+    font-family: 'Gotham';
+}
+
+.dateInput {
+  font-family: 'Lato';
+}
+
+.table-condensed {
+    font-family: 'Lato';
+}
+
+table tr {
+  font-family:monospace;
+  text-align:right;
+}
+
+
+
+table thead th {
+  font-family:'Gotham';
+
+}
+
+table.dataTable {
+  font-family: 'Gotham';
+  border: 1px solid black;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  font-family: 'Lato';
+  color: black;
+  font-size: 5px;
+
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+  font-family: 'Lato';
+  color: black;
+  font-size: 5px;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child) {
+  font-family: 'Lato';
+}
+
+.shiny-output-error { 
+	visibility: hidden; 
+}
+
+.shiny-output-error:before { 
+	visibility: hidden; 
+}
+
+.bootstrap-switch {
+	font-family: 'Lato';
+	font-size: 5px;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    color: black;
+    background: #808080;
+}
+
+.bootstrap-switch.bootstrap-switch-focused {
+    border-color: black;
+    outline: 0;
+    box-shadow: none;
+}
+.input-sm {
+	height: 10px;
+	box-shadow: none !important;
+	border-color: black !important;
+}
+
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active {
+    color: black !important;
+    background-color: #ffa300 !important;
+    border-color: black !important;
+}
+
+.datepicker table tr td.active, .datepicker table tr td.active.highlighted {
+    color: #fff;
+    background-color: #ffa300;
+    border-color: #ffa300;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+
+.modal {
+	font-family: 'Lato' !important;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    font-family: 'Lato' !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    background: white !important;
+    border-color: white;
+}
+
+/* Customize Appearance of CSV upload button */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    background: #ffa300;
+    font-size: 16px;
+    padding: 12px 24px;
+
+}
+
+.control-label {
+    font-family: 'GothamBold';
+    color: white;
+}
+
+#csv_upload_warnings{font-family: 'GothamBold';
+       color: black;
+       font-size: 20px;
+       font-style: bold;
+}

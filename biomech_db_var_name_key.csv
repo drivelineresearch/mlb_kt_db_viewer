@@ -1,0 +1,135 @@
+start_colnames,clean_colnames
+traq_id,TRAQ ID
+name,Name
+session_date,Date
+session_playing_level,Playing Level
+session_tag,Session Tag
+session_throws,Handedness
+p_throws,Handedness
+pitch_type,Pitch Type
+session_height,Height
+session_weight,Weight
+session_pitch,Session Pitch
+session,Session
+pitch_speed_mph,Pitch Speed (mph)
+stride_length,Stride Length
+stride_angle,Stride Angle
+pitch_composite_score,Pitch Composite Score
+max_shoulder_internal_rotational_velo,Max Shoulder Internal Rotational Velo
+max_elbow_extension_velo,Max Elbow Extension Velo
+max_torso_rotational_velo,Max Torso Rotational Velo
+max_rotation_hip_shoulder_separation,Max Rotation Hip Shoulder Separation
+max_elbow_flexion,Max Elbow Flexion
+max_shoulder_external_rotation,Max Shoulder External Rotation
+elbow_flexion_fp,Elbow Flexion at FP
+elbow_pronation_fp,Elbow Pronation at FP
+rotation_hip_shoulder_separation_fp,Rotation Hip Shoulder Separation at FP
+shoulder_horizontal_abduction_fp,Shoulder Horizontal Abduction at FP
+shoulder_abduction_fp,Shoulder Abduction at FP
+shoulder_external_rotation_fp,Shoulder External Rotation at FP
+lead_knee_extension_angular_velo_fp,Lead Knee Extension Angular Velo at FP
+lead_knee_extension_angular_velo_br,Lead Knee Extension Angular Velo at BR
+lead_knee_extension_angular_velo_max,Lead Knee Extension Angular Velo Max
+lead_knee_extension_angular_velo_max_legacy,Lead Knee Extension Angular Velo Max (Legacy)
+torso_anterior_tilt_fp,Torso Anterior Tilt at FP
+torso_lateral_tilt_fp,Torso Lateral Tilt at FP
+torso_rotation_fp,Torso Rotation at FP
+pelvis_anterior_tilt_fp,Pelvis Anterior Tilt at FP
+pelvis_lateral_tilt_fp,Pelvis Lateral Tilt at FP
+pelvis_rotation_fp,Pelvis Rotation at FP
+max_cog_velo_x,Max COG Velo X
+torso_rotation_min,Torso Rotation Min
+max_pelvis_rotational_velo,Max Pelvis Rotational Velo
+glove_shoulder_horizontal_abduction_fp,Glove Shoulder Horizontal Abduction at FP
+glove_shoulder_abduction_fp,Glove Shoulder Abduction at FP
+glove_shoulder_external_rotation_fp,Glove Shoulder External Rotation at FP
+glove_shoulder_abduction_mer,Glove Shoulder Abduction at MER
+elbow_flexion_mer,Elbow Flexion at MER
+torso_anterior_tilt_mer,Torso Anterior Tilt at MER
+torso_lateral_tilt_mer,Torso Lateral Tilt at MER
+torso_rotation_mer,Torso Rotation at MER
+elbow_varus_moment,Elbow Varus Moment
+shoulder_internal_rotation_moment,Shoulder Internal Rotation Moment
+torso_anterior_tilt_br,Torso Anterior Tilt at BR
+torso_lateral_tilt_br,Torso Lateral Tilt at BR
+torso_rotation_br,Torso Rotation at BR
+lead_knee_extension_from_fp_to_br,Lead Knee Extension from FP to BR
+cog_velo_pkh,COG Velo at Peak Knee Height
+arm_slot,Arm Slot
+timing_peak_torso_to_peak_pelvis_rot_velo,Timing (Peak Torso to Peak Pelvis Rot Velo)
+max_shoulder_horizontal_abduction,Max Shoulder Horizontal Abduction
+velo_buckets,Velo Bucket
+shoulder_transfer_fp_br                    ,Energy Transfer Shoulder FP to BR
+shoulder_generation_fp_br,Energy Generation Shoulder FP to BR
+shoulder_absorption_fp_br,Energy Absorption Shoulder FP to BR
+elbow_transfer_fp_br,Energy Transfer Elbow FP to BR
+elbow_generation_fp_br,Energy Generation Elbow FP to BR
+elbow_absorption_fp_br,Energy Absorption Elbow FP to BR
+lead_hip_transfer_fp_br,Energy Transfer Lead Hip FP to BR
+lead_hip_generation_fp_br,Energy Generation Lead Hip FP to BR
+lead_hip_absorption_fp_br,Energy Absorption Lead Hip FP to BR
+lead_knee_transfer_fp_br,Energy Transfer Lead Knee FP to BR
+lead_knee_generation_fp_br,Energy Generation Lead Knee FP to BR
+lead_knee_absorption_fp_br,Energy Absorption Lead Knee FP to BR
+rear_hip_transfer_pkh_fp,Energy Transfer Rear Hip PKH to FP
+rear_hip_generation_pkh_fp,Energy Generation Rear Hip PKH to FP
+rear_hip_absorption_pkh_fp,Energy Absorption Rear Hip PKH to FP
+rear_knee_transfer_pkh_fp,Energy Transfer Rear Knee PKH to FP
+rear_knee_generation_pkh_fp,Energy Generation Rear Knee PKH to FP
+rear_knee_absorption_pkh_fp,Energy Absorption Rear Knee PKH to FP
+pelvis_lumbar_transfer_fp_br,Energy Transfer Pelvis Lumbar FP to BR
+thorax_distal_transfer_fp_br,Energy Transfer Thorax Distal FP to BR
+rear_grf_x_max,Rear Leg GRF X Max
+rear_grf_y_max,Rear Leg GRF Y Max
+rear_grf_z_max,Rear Leg GRF Z Max
+rear_grf_mag_max,Rear Leg GRF Magnitude Max
+rear_grf_angle_at_max,Rear Leg GRF Angle at Max
+lead_grf_x_max,Lead Leg GRF X Max
+lead_grf_y_max,Lead Leg GRF Y Max
+lead_grf_z_max,Lead Leg GRF Z Max
+lead_grf_mag_max,Lead Leg GRF Magnitude Max
+lead_grf_angle_at_max,Lead Leg GRF Angle at Max
+peak_rfd_rear,Rear Leg Peak Rate of Force Development
+peak_rfd_lead,Lead Leg Peak Rate of Force Development
+cog_decel_resid,COG Deceleration after FP above Expectation
+comp_score_arm_action,Composite Score - Arm Action
+comp_score_cog,Composite Score - COG
+comp_score_block,Composite Score - Block
+comp_score_rot_velos,Composite Score - Rotational Velos
+comp_score_arm_velos,Composite Score - Arm Rotational Velos
+comp_score_posture,Composite Score - Hip Shoulder Separation
+comp_score_mechanics_total ,Composite Score - Mechanics Total
+ratio_elbow_varus,RATIO - Elbow Varus above Expect
+ratio_elbow_transfer,RATIO - Elbow Energy Transfer above Expect
+ratio_shoulder_transfer,RATIO - Shoulder Energy Transfer above Expect
+velo_bw_adj,Velo above BW Expect
+rear_grf_x_max_bw_adj,Rear Leg GRF X Max above BW Expect
+rear_grf_y_max_bw_adj,Rear Leg GRF Y Max above BW Expect
+rear_grf_z_max_bw_adj,Rear Leg GRF Z Max above BW Expect
+rear_grf_mag_max_bw_adj,Rear Leg GRF Magnitude Max above BW Expect
+peak_rfd_rear_bw_adj,Rear Leg Peak RFD above BW Expect
+lead_grf_x_max_bw_adj,Lead Leg GRF X Max above BW Expect
+lead_grf_y_max_bw_adj,Lead Leg GRF Y Max above BW Expect
+lead_grf_z_max_bw_adj,Lead Leg GRF Z Max above BW Expect
+lead_grf_mag_max_bw_adj,Lead Leg GRF Magnitude Max above BW Expect
+peak_rfd_lead_bw_adj,Lead Leg Peak RFD above BW Expect
+shoulder_transfer_fp_br_bw_adj,Energy Transfer Shoulder above BW Expect
+shoulder_generation_fp_br_bw_adj,Energy Generation Shoulder above BW Expect
+shoulder_absorption_fp_br_bw_adj,Energy Absorption Shoulder above BW Expect
+elbow_transfer_fp_br_bw_adj ,Energy Transfer Elbow above BW Expect
+elbow_generation_fp_br_bw_adj,Energy Generation Elbow above BW Expect
+elbow_absorption_fp_br_bw_adj,Energy Absorption Elbow above BW Expect
+lead_hip_transfer_fp_br_bw_adj,Energy Transfer Lead Hip above BW Expect
+lead_hip_generation_fp_br_bw_adj,Energy Generation Lead Hip above BW Expect
+lead_hip_absorption_fp_br_bw_adj,Energy Absorption Lead Hip above BW Expect
+lead_knee_transfer_fp_br_bw_adj,Energy Transfer Lead Knee above BW Expect
+lead_knee_generation_fp_br_bw_adj,Energy Generation Lead Knee above BW Expect
+lead_knee_absorption_fp_br_bw_adj,Energy Absorption Lead Knee above BW Expect
+rear_hip_transfer_pkh_fp_bw_adj,Energy Transfer Rear Hip above BW Expect
+rear_hip_generation_pkh_fp_bw_adj,Energy Generation Rear Hip above BW Expect
+rear_hip_absorption_pkh_fp_bw_adj,Energy Absorption Rear Hip above BW Expect
+rear_knee_transfer_pkh_fp_bw_adj,Energy Transfer Rear Knee above BW Expect
+rear_knee_generation_pkh_fp_bw_adj,Energy Generation Rear Knee above BW Expect
+rear_knee_absorption_pkh_fp_bw_adj,Energy Absorption Rear Knee above BW Expect
+pelvis_lumbar_transfer_fp_br_bw_adj,Energy Transfer Pelvis Lumbar above BW Expect
+thorax_distal_transfer_fp_br_bw_adj,Energy Transfer Thorax Distal above BW Expect
